@@ -4,3 +4,14 @@ This is 1st line
 this is a line in feature branch
 This line is from feature-2
 
+<ul>
+      <li>
+        <a href="/" class="<%= isActiveRoute('/', currentRoute) %>">Home</a>
+      </li>
+      <li>
+        <a href="/about" class="<%= isActiveRoute('/about', currentRoute) %>">About</a>
+      </li>
+      <li>
+        <a href="/contact" class="<%= isActiveRoute('/contact', currentRoute) %>">Contact</a>
+      </li>
+    </ul>
